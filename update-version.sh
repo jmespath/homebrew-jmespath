@@ -1,7 +1,6 @@
 #!/bin/bash
 
 set -e
-set -x
 
 if [ -z "$1" ]; then
 	echo "usage: ./update-version.sh <version-number>" 1>&2

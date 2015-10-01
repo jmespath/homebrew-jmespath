@@ -1,8 +1,8 @@
 class Jp < Formula
   desc "Command-line interface to JMESPath, a query language for JSON"
   homepage "http://jmespath.org/"
-  url "https://github.com/jmespath/jp/archive/0.1.0.tar.gz"
-  sha256 "5f140fe8320dbea391bcb1b0fa800a2a42dca7a381485aaa039a6d23a5920966"
+  url "https://github.com/jmespath/jp/archive/0.1.1.tar.gz"
+  sha256 "f19863c1683a4789bdefbc098348743898ed8ec3c8706db3ab940d4a57688bf9"
 
   depends_on "go" => :build
 
