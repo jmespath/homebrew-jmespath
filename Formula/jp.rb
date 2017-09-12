@@ -1,13 +1,12 @@
 class Jp < Formula
   desc "Command-line interface to JMESPath, a query language for JSON"
   homepage "http://jmespath.org/"
-  url "https://github.com/jmespath/jp/archive/0.1.1.tar.gz"
-  sha256 "f19863c1683a4789bdefbc098348743898ed8ec3c8706db3ab940d4a57688bf9"
+  url "https://github.com/jmespath/jp/releases/download/0.1.3/jp-0.1.3.tar.gz"
+  sha256 "69c9f545d552125eff246e9275cb5205109a232ff9b40b94bfab10f226caae65"
 
-  depends_on "go" => :build
+  bottle: unneeded
 
   def install
-    system "scripts/build-self-contained.sh"
     bin.install "jp"
   end
 
