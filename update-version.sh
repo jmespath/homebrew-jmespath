@@ -8,8 +8,8 @@ if [ -z "$1" ]; then
 fi
 
 VERSION="$1"
-LOCAL_FILE="${VERSION}.tar.gz"
-URL="https://github.com/jmespath/jp/archive/${LOCAL_FILE}"
+LOCAL_FILE="jp-${VERSION}.tar.gz"
+URL="https://github.com/jmespath/jp/releases/download/${VERSION}/${LOCAL_FILE}"
 pushd /tmp
 wget "$URL"
 checksum=$(shasum -a 256 "$LOCAL_FILE" | cut -d' ' -f 1)
