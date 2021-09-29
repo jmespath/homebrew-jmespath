@@ -1,8 +1,9 @@
 class Jp < Formula
   desc "Command-line interface to JMESPath, a query language for JSON"
   homepage "http://jmespath.org/"
-  url "https://github.com/jmespath/jp/releases/download/0.1.3/jp-0.1.3.tar.gz"
-  sha256 "69c9f545d552125eff246e9275cb5205109a232ff9b40b94bfab10f226caae65"
+  url "https://github.com/jmespath/jp/archive/0.2.0.tar.gz"
+  sha256 "9c46d0683d8bf657505404710056c01c54b5403bc76725a923dc193522f2559b"
+  license "Apache-2.0"
 
   bottle :unneeded
 
