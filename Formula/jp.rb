@@ -5,8 +5,6 @@ class Jp < Formula
   sha256 "8083f87df1bd550f0cddbb143be82f10e2e6cadaf6b633d133656c593f25e666"
   license "Apache-2.0"
 
-  bottle :unneeded
-
   def install
     bin.install "jp"
   end
